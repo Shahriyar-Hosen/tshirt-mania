@@ -1,10 +1,12 @@
 import React from "react";
 import "./Cart.css";
 
-const Cart = () => {
+const Cart = ({ tShirt, handleRemoveFromCart }) => {
   return (
-    <div>
-      <h1>This is Cart</h1>
+    <div className="select-items">
+      <p>
+        Name: {tShirt.name} <button onClick={() => handleRemoveFromCart(tShirt)}>X</button>
+      </p>
     </div>
   );
 };
