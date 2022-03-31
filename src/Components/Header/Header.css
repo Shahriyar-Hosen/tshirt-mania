@@ -1,8 +1,10 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 nav a {
   text-decoration: none;
   color: black;
   margin-right: 20px;
-}
-nav a:hover {
-  color: orange;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 import './Header.css'
 
 const Header = () => {
@@ -7,8 +7,8 @@ const Header = () => {
         <div>
             <h1>This is header page</h1>
             <nav>
-                <Link to='/'>Home</Link>
-                <Link to='orderreview'>Order Review</Link>
+                <CustomLink to='/'>Home</CustomLink>
+                <CustomLink to='orderreview'>Order Review</CustomLink>
             </nav>
         </div>
     );
