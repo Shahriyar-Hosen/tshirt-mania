@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import GrandPa from "./Components/GrandPa/GrandPa";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import OrderReview from "./Components/OrderReview/OrderReview";
@@ -15,6 +16,7 @@ function App() {
           path="/orderreview"
           element={<OrderReview></OrderReview>}
         ></Route>
+        <Route path="/grandpa" element={<GrandPa></GrandPa>}></Route>
       </Routes>
     </div>
   );
